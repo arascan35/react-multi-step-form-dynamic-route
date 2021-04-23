@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  text-align: left;
+  padding: 0.3rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0.8rem;
+  border: 1px solid #a4a4a4;
+  width: 300px;
+}
+
+input[type="radio"] {
+  width: 30px;
+}
+
+select {
+  background-color: transparent;
+  padding: 0.3rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0.8rem;
+  border: 1px solid #a4a4a4;
+  width: 300px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  margin: 0.5rem 0.5rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.button-group {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
